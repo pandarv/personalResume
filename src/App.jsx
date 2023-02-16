@@ -25,7 +25,7 @@ function App() {
 
 			<Routes>
 				<Route
-					path='/personalResume/'
+					path='/personalResume'
 					element={<Header />}
 				/>
 				<Route
