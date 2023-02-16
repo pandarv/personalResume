@@ -25,6 +25,7 @@ function App() {
 
 			<Routes>
 				<Route
+					exact
 					path='/personalResume/'
 					element={<Header />}
 				/>
