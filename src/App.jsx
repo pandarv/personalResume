@@ -25,19 +25,19 @@ function App() {
 
 			<Routes>
 				<Route
-					path='/personalResume/'
+					path='/'
 					element={<Header />}
 				/>
 				<Route
-					path='/personalResume/resume'
+					path='/resume'
 					element={<Resume />}
 				/>
 				<Route
-					path='/personalResume/portfolio'
+					path='/portfolio'
 					element={<Portfolio />}
 				/>
 				<Route
-					path='/personalResume/contact'
+					path='/contact'
 					element={<Contact />}
 				/>
 				<Route
